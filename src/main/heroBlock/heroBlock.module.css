@@ -1,0 +1,107 @@
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.inner {
+    max-width: 1920px;
+    padding-left: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textBlock {
+    max-width: 54%;
+}
+
+.title {
+    font-family: "Roboto Condensed";
+    font-size: clamp(24px, 3vw, 96px);
+    font-weight: 600;
+    color: #05183C;
+    text-transform: uppercase;
+}
+
+.description {
+    font-family: "Roboto";
+    font-size: clamp(14px, 1vw, 24px);
+    color: #05183C;
+    font-weight: 200;
+    margin: 3rem 0;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.imageBlock {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.robotImage {
+    max-width: 100%;
+    height: auto;
+}
+
+.link {
+    font-family: "Roboto";
+    text-decoration: none;
+    color: #FAFAFA;
+    transition: text-decoration 0.2s;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.link:hover {
+    background-color: transparent;
+    color: #001b41;
+}
+
+
+
+
+@media (max-width: 1000px) and (min-width: 768px) {
+    .textBlock {
+        padding-left: 40px;
+    }
+
+    .inner {
+        padding-left: 0px;
+    }
+}
+
+/* АДАПТИВ ДЛЯ МОБИЛЬНЫХ */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding: 2rem;
+        height: 40vh;
+    }
+
+    .inner {
+        padding-left: 0px;
+    }
+
+
+    .textBlock {
+        max-width: 100%;
+        padding-left: 0;
+    }
+
+    .description {
+        text-align: center;
+        text-justify: none;
+    }
+
+    .imageBlock {
+        display: none;
+    }
+}

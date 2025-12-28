@@ -1,0 +1,137 @@
+.section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 20px 140px;
+}
+
+.inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-family: "Roboto Condensed";
+    font-size: clamp(24px, 3vw, 96px);
+    font-weight: 600;
+    color: #05183C;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: clamp(14px, 1vw, 24px);
+    color: #05183C;
+    margin-bottom: 30px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.goalsList {
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+
+.goalItem {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+}
+
+
+.goalIdWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.goalId {
+    font-size: clamp(12px, 1vw, 20px);
+    font-weight: 400;
+    color: #00408B;
+    min-width: 40px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #00408B;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+}
+
+.chain {
+    height: 80px;
+    border-left: 1px dashed #00408B;
+    position: absolute;
+    top: 50px;
+}
+
+.goalTitle {
+    font-weight: 500;
+    font-size: clamp(16px, 1.3vw, 28px);
+    font-weight: bold;
+    color: #05183C;
+    margin-bottom: 5px;
+}
+
+.goalDescription {
+    font-weight: 400;
+    font-size: clamp(14px, 1vw, 20px);
+    color: #B4AEAE;
+}
+
+.image{
+    width: 30%;
+    max-height: 300px;
+}
+
+
+@media (max-width: 1000px) and (min-width: 768px) { 
+    .container {
+        margin: 20px 40px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        margin: 20px 30px;
+    }
+    .image{
+        display: none;
+    }    
+}
+
+
+/* Responsive */
+@media (max-width: 600px) {
+    .goalItem {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .goalId {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .chain {
+        display: none;
+    }
+}

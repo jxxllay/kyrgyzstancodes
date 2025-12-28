@@ -1,0 +1,29 @@
+stages:
+  - build
+  - deploy
+
+build-job:
+  image: node:20
+  stage: build
+  script:
+    - npm ci
+    - npm run build
+  artifacts:
+    paths:
+      - dist
+
+ftp-deploy:
+  image: node:20
+  stage: deploy
+  dependencies:
+    - build-job
+  script:
+    - npm ci
+    - npm run deploy:ftp
+  only:
+    - main
+  variables:
+    FTP_HOST: 193.176.239.149
+    FTP_USER: dastan.sharshek1
+    FTP_PASS: $FTP_PASS
+    FTP_REMOTE_PATH: /www/kgcodes.kg

@@ -1,0 +1,105 @@
+{
+  "aboutProject": "About",
+  "coursesNav": "Courses",
+  "howItWorks": "How It Works",
+  "contactUs": "Contact Us",
+  "navigation": "Navigation:",
+  "official_resources": "Official Resources:",
+  "president": "President of the Kyrgyz Republic",
+  "government": "Cabinet of Ministers",
+  "parliament": "Jogorku Kenesh",
+  "ministry_digital": "Ministry of Digital Development of the Kyrgyz Republic",
+  "ministry_education": "Ministry of Education of the Kyrgyz Republic",
+  "ministry": "The Ministry of Education of the Kyrgyz Republic",
+  "faqHeader": "FAQ",
+  "hero": {
+    "title": "DIVE INTO THE WORLD OF TECHNOLOGY WITH KYRGYZSTAN CODES",
+    "description": "A program that helps young people across Kyrgyzstan gain digital skills, start a career in IT, and become part of the country’s future.",
+    "button": "Apply Now"
+  },
+  "goals": {
+    "program_title": "PROGRAM GOALS",
+    "program_description": "Kyrgyzstan Codes is your entry into a digital profession. We teach essential skills, provide access to IT education, and support your growth.",
+    "learning": "Digital Skills for Everyone",
+    "learning_description": "Master modern professions and gain practical knowledge that will help you find a job and grow confidently in the tech world.",
+    "women_in_it": "Support for Women in IT",
+    "women_in_it_description": "We create opportunities for girls and women: learn, grow, and build a career in the digital field.",
+    "accessibility": "Education in Every Region",
+    "accessibility_description": "We make education accessible to everyone — in cities and villages — so that anyone can begin a journey into a digital profession.",
+    "education_integration": "Modern Skills in Schools and Universities",
+    "education_integration_description": "We integrate digital courses into academic programs to prepare students for real professions of the future.",
+    "innovation": "Creative and Critical Thinking",
+    "innovation_description": "We help develop the ability to think outside the box, solve problems, and create digital products."
+  },
+  "courses": {
+    "description": "The educational program includes the following courses: Basics of Programming, Basics of Artificial Intelligence, Basics of Data Analysis, Basics of Android Development in Kotlin.",
+    "android": {
+      "title": "Android Kotlin Development Fundamentals",
+      "description": "This track aims to teach you the core fundamentals of Android development, how app layouts are created, how interactions with the users take place, and the basics of Kotlin, a language designed especially with speed in mind. It compiles faster, makes your application more lightweight, and prevents them from increasing in size."
+    },
+    "data_analysis": {
+      "title": "Data Analysis Fundamentals",
+      "description": "This track aims to teach you the core fundamentals of Data Analysis and refine your ability to work with messy, complex datasets. You’ll learn to manipulate and prepare data for analysis and create visualizations for data exploration. Finally, you’ll learn to use your data skills to tell a story with data."
+    },
+    "programming": {
+      "title": "Programming Fundamentals",
+      "description": "This track aims to teach you the core fundamentals of web development, how web pages are structured from scratch using a language called HyperText Markup Language (HTML), how this HTML structure is then designed and styled using another language called Cascading Style Sheets (CSS) and finally, how this styled structure gets converted into an interactive application using JavaScript (JS)."
+    },
+    "ai": {
+      "title": "Artificial Intelligence Fundamentals",
+      "description": "This track provides a foundational understanding of Artificial Intelligence (AI) and Machine Learning (ML), practical skills in using ChatGPT, and insights into ethical AI. You'll explore AI concepts, industry applications, and key machine-learning techniques. Learn to utilize ChatGPT for various tasks and understand the ethical implications of AI. By the end of the course, you'll be ready to apply AI technologies responsibly in diverse contexts."
+    }
+  },
+  "howWork": {
+    "program_title": "How Does It Work?",
+    "program_description": "Kyrgyzstan Codes is an online platform for those who want to learn, grow, and build a career in the digital world.",
+    "crediting": "Start Learning",
+    "crediting_description": "Choose a course, register, and start learning — free and online.",
+    "community": "Support and Community",
+    "community_description": "Connect with other participants, get help from instructors, and never learn alone.",
+    "certificate": "Certificate of Completion",
+    "certificate_description": "Complete a course, prove your knowledge, and receive an official certificate."
+  },
+  "faq": {
+    "categories": {
+      "main": "Kyrgyzstan Codes Program – Frequently Asked Questions",
+      "enrollment": "Program Enrollment",
+      "experience": "Learning Experience",
+      "support": "Communication and Support"
+    },
+    "questions": {
+      "whatIs": "What is the Kyrgyzstan Codes program?",
+      "howEnroll": "How do I enroll in the program?",
+      "multiTrack": "Can I enroll in more than one track?",
+      "reenroll": "Can I re-enroll in the same track after completing it?",
+      "switch": "I enrolled in the wrong track. Can I switch or withdraw?",
+      "untilWhen": "Until when is the initiative available?",
+      "howLong": "How long do I have to complete a track?",
+      "mobile": "Can I learn on my mobile device?",
+      "certificate": "Will I receive a certificate after completing the program?",
+      "accredited": "Are the certificates accredited?",
+      "whenCertificate": "How and when will I receive my certificate?",
+      "nameOnCertificate": "How will my name appear on the certificate?",
+      "contacted": "How will I be contacted?",
+      "emailChange": "Can I change my registered email address?",
+      "careerSupport": "Will the program offer career support?"
+    },
+    "answers": {
+      "whatIs": "The Kyrgyzstan Codes program is a flagship initiative under the Global Chapters framework, launched through a strategic partnership between the Government of the United Arab Emirates and the Government of Kyrgyzstan. Delivered by the Government Experience Exchange Office (GEEO), the program aims to equip the workforce of the future with foundational digital skills in some of today’s most in-demand fields:\n- Programming Fundamentals\n- Data Science Fundamentals\n- Android Kotlin Development\n- Artificial Intelligence (AI) Fundamentals\n\nDesigned to be completed in approximately 6–7 weeks and delivered in English and Russian, this program offers an accessible and fast-track opportunity for learners to step into the world of technology.",
+      "howEnroll": "You can enroll directly in the track of your choice by applying on the program website.",
+      "multiTrack": "Yes. You are welcome to enroll in multiple tracks. However, we strongly recommend focusing on one track at a time to maximize your learning outcomes and increase your chances of success.",
+      "reenroll": "No. Once a track has been completed—regardless of certification—you will not be able to re-enroll in the same one.",
+      "switch": "Withdrawals are not available. However, you may still enroll in your preferred track. Please note that time limits begin once you enroll in a new track.",
+      "untilWhen": "The program will be available until January 2028.",
+      "howLong": "You will have 8 weeks to complete each track and take the assessment. Most learners finish within 6 weeks.",
+      "mobile": "Yes! You can access the courses using a mobile browser via https://classroom.udacity.com.",
+      "certificate": "Yes. Upon successfully completing all track requirements and passing the final assessment, you will receive a Certificate of Completion (CoC).",
+      "accredited": "Certificates are issued by Udacity, a global online education provider. While not accredited by a government authority, each certificate includes a unique verification code and is signed by Udacity’s founder, Sebastian Thrun.",
+      "whenCertificate": "Your certificate will be automatically generated once you complete all requirements. You can download it directly from your Udacity Classroom. Please make sure to save the certificate of completion.",
+      "nameOnCertificate": "Your certificate will reflect the name displayed in your Udacity Classroom settings. Ensure your first and last names are correctly entered in English. Changes are not permitted after graduation.",
+      "contacted": "Udacity will reach out to you via email. Please use one consistent email address throughout the program, check your inbox (and spam folder) regularly, and ensure it remains active.",
+      "emailChange": "No. You must retain the same email address you used to enroll in the program to remain eligible for the scholarship.",
+      "careerSupport": "This initiative does not include direct career support or job placement services."
+    }
+  }
+}
